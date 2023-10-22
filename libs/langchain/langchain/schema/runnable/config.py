@@ -88,7 +88,6 @@ def ensure_config(config: Optional[RunnableConfig] = None) -> RunnableConfig:
         tags=[],
         metadata={},
         callbacks=None,
-        locals={},
         recursion_limit=10,
     )
     if config is not None:
